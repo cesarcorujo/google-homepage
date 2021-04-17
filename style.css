@@ -4,23 +4,35 @@
 body {
     font-family: roboto, Tahoma, sans-serif;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
 }
 
 
+
 .topnav {
-    float: right;
-text-align: center;
-padding: 14px 16px;
-margin: 0;
+   float: right;
+    position: fixed;
+   top: 0;
+   margin-top: 20px;
+   word-spacing: 15px;
+   text-align: right;
+   padding-left: 1100px;
+
+ 
+}
+
+.topnav a {
+
+  margin-top: 0;
+  
 }
 
 
 
-googlelogo {
+.googlelogo {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
